@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Provides an implementation of the IMAP4Rev1 protocol using PEAR's
 Net_Socket and Auth_SASL class.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa dostarcza implementacjê protoko³u IMAP4Rev1 przy u¿yciu
