@@ -6,7 +6,7 @@
 Summary:	%{_pearname} - Provides an implementation of the IMAP protocol
 Summary(pl):	%{_pearname} - Dostarcza implementacjê protoko³u IMAP
 Name:		php-pear-%{_pearname}
-Version:	0.1
+Version:	0.2
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
@@ -43,4 +43,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc %{_pearname}-%{version}/docs/*
 %{php_pear_dir}/%{_class}/*.php
