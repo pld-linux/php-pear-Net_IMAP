@@ -6,11 +6,11 @@
 Summary:	%{_pearname} - Provides an implementation of the IMAP protocol
 Summary(pl):	%{_pearname} - Dostarcza implementacjê protoko³u IMAP
 Name:		php-pear-%{_pearname}
-Version:	0.3
+Version:	0.4
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	eb3b28a98ebc049cd4c08becdb8933d2
+# Source0-md5:	6a2feedaa665a2604e9f74fa65142d21
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
