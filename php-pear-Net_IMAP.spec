@@ -3,8 +3,8 @@
 %define         _subclass       IMAP
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - Provides an implementation of the IMAP protocol
-Summary(pl):	%{_pearname} - Dostarcza implementacjê protoko³u IMAP
+Summary:	%{_pearname} - an implementation of the IMAP protocol
+Summary(pl):	%{_pearname} - implementacja protoko³u IMAP
 Name:		php-pear-%{_pearname}
 Version:	0.4
 Release:	1
@@ -25,8 +25,8 @@ Net_Socket and Auth_SASL class.
 This class has in PEAR status: %{_status}.
 
 %description -l pl
-Dostarcza implementacjê protoko³u IMAP4Rev1 przy u¿yciu PEAR-owych
-klas Net_Socket oraz Auth_SASL
+Klasa dostarcza implementacjê protoko³u IMAP4Rev1 przy u¿yciu
+PEAR-owych klas Net_Socket oraz Auth_SASL.
 
 Ta klasa ma w PEAR status: %{_status}.
 
