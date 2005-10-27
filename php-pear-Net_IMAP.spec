@@ -9,6 +9,7 @@ Summary(pl):	%{_pearname} - implementacja protoko³u IMAP
 Name:		php-pear-%{_pearname}
 Version:	1.0.3
 Release:	3
+Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -44,7 +45,6 @@ Tests for PEAR::%{_pearname}.
 
 %description tests -l pl
 Testy dla PEAR::%{_pearname}.
-
 
 %prep
 %pear_package_setup
