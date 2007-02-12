@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - an implementation of the IMAP protocol
-Summary(pl):	%{_pearname} - implementacja protoko≥u IMAP
+Summary(pl.UTF-8):   %{_pearname} - implementacja protoko≈Çu IMAP
 Name:		php-pear-%{_pearname}
 Version:	1.0.3
 Release:	3
@@ -29,15 +29,15 @@ Net_Socket and Auth_SASL class.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa dostarcza implementacjÍ protoko≥u IMAP4Rev1 przy uøyciu
+%description -l pl.UTF-8
+Klasa dostarcza implementacjƒô protoko≈Çu IMAP4Rev1 przy u≈ºyciu
 PEAR-owych klas Net_Socket oraz Auth_SASL.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -46,7 +46,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
