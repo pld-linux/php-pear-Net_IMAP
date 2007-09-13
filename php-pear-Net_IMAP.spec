@@ -8,7 +8,7 @@ Summary:	%{_pearname} - an implementation of the IMAP protocol
 Summary(pl.UTF-8):	%{_pearname} - implementacja protokołu IMAP
 Name:		php-pear-%{_pearname}
 Version:	1.0.3
-Release:	3
+Release:	4
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
