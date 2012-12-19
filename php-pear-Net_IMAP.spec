@@ -4,12 +4,12 @@
 Summary:	%{pearname} - an implementation of the IMAP protocol
 Summary(pl.UTF-8):	%{pearname} - implementacja protokołu IMAP
 Name:		php-pear-%{pearname}
-Version:	1.1.1
-Release:	2
+Version:	1.1.2
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
-# Source0-md5:	79ea05dfc3af6ae2fa276831b4cceb8a
+# Source0-md5:	6806c2c09d0ecf724caade9cfebba4b0
 URL:		http://pear.php.net/package/Net_IMAP/
 BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -20,9 +20,6 @@ Suggests:	php-pear-Auth_SASL
 Obsoletes:	php-pear-Net_IMAP-tests
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-# exclude optional dependencies
-%define		_noautoreq	pear(Auth/SASL.*)
 
 %description
 Provides an implementation of the IMAP4Rev1 protocol using PEAR's
@@ -39,6 +36,7 @@ Ta klasa ma w PEAR status: %{status}.
 %prep
 %pear_package_setup
 
+rm .%{php_pear_dir}/data/Net_IMAP/phpunit.xml
 mv .%{php_pear_dir}/data/Net_IMAP/README .
 
 %install
