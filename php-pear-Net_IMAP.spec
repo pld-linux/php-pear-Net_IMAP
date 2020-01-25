@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Net_IMAP
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - an implementation of the IMAP protocol
 Summary(pl.UTF-8):	%{pearname} - implementacja protokołu IMAP
 Name:		php-pear-%{pearname}
